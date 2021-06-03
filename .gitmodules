@@ -1,3 +1,6 @@
 [submodule "EPFD"]
 	path = EPFD
 	url = git@github.com:nicojahn/EPFD.git
+[submodule "data"]
+	path = data
+	url = git@gitlab.nicojahn.com:university/HTCV-Seminar/data.git
