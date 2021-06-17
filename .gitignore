@@ -1,0 +1,12 @@
+# jupyter stuff
+.ipynb_checkpoints/
+
+# W&B stuff
+artifacts
+wandb
+
+# data files
+validation_predictions
+validation_labels
+
+main.py
