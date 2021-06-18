@@ -1,6 +1,9 @@
 # jupyter stuff
 .ipynb_checkpoints/
 
+# python stuff
+__pycache__
+
 # W&B stuff
 artifacts
 wandb
@@ -9,4 +12,6 @@ wandb
 validation_predictions
 validation_labels
 
+# notebook to script
 main.py
+wandb_data.py
