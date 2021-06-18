@@ -4,6 +4,6 @@
 * wandb login
 * bash docker_environment.sh
 * docker exec -it epfd bash
-* convert_notebook_to_script_and_execute.sh
+* bash convert_notebook_to_script.sh
 * ipython wandb_data.py
-* wandb agent nicojahn/htcv/5u9mgel7
+* wandb agent nicojahn/htcv/2pwlb1oe
