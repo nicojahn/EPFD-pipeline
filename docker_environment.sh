@@ -8,4 +8,4 @@ docker pull $image
 wandb docker run -d --rm -it --name $container_name --dir "/app" $image
 docker exec -it $container_name bash -c "apt update && apt install git jupyter jupyter-nbconvert python3-ipython -y && cd /app && python3 -m pip install -r requirements.txt"
 
-#tmux new-session -d 'docker exec -it epfd bash -c "wandb agent nicojahn/htcv/79q4smxi"'
+#tmux new-session -d 'docker exec -it epfd bash -c "wandb agent nicojahn/htcv/rwr1kwis"'

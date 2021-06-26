@@ -21,16 +21,5 @@ def scale_image_down(image):
     return scale_image(image, 0.5)
 
 def extract_validation_patch(image):
-    channels = 1
-    if len(image.shape) == 3:
-        channels = 3
-    image = image.reshape(image.shape[0], image.shape[1], channels)
-    assert image.shape == (2404, 8344, channels) or image.shape == (1202, 4172, channels)
-    did_i_scale = False
-    if image.shape == (1202, 4172, channels):
-        image = scale_image_up(np.squeeze(image))
-        did_i_scale = True
-    image = np.squeeze(image.reshape(2,1202,7,1192,channels)[1,:,1:5,:,:].reshape(1202, -1, channels))
-    if did_i_scale:
-        image = scale_image_down(image)
-    return image
+    patches = np.asarray(np.hsplit(np.asarray(np.hsplit(image, 7)), 2))[1,1:5]
+    return np.concatenate(patches, axis=1)
