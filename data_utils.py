@@ -7,11 +7,10 @@ def read_image(path, scale=True):
         return np.uint8(img*255)
     return img
 
-from PIL import Image
+import cv2
 
 def scale_image(image, scale):
-    img = Image.fromarray(np.uint8(image))
-    img = img.resize((int(img.width*scale), int(img.height*scale)), Image.NEAREST)
+    img = cv2.resize(image, (0,0), fx=scale, fy=scale, interpolation = cv2.INTER_NEAREST)
     return np.asarray(img)
 
 def scale_image_up(image):

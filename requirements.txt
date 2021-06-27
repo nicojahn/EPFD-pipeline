@@ -3,3 +3,4 @@ pandas
 wandb==0.10.32
 ipython
 scipy
+opencv-python
