@@ -1,0 +1,176 @@
+.
+├── 2018_IEEE_GRSS_DFC_GT_TR.tif
+├── README.md
+├── ensemble
+│   ├── hsi-h15-s100-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h15-s100-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h15-s10000-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h15-s10000-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h30-s100-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h30-s100-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h30-s10000-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h30-s10000-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h30-s10000-t10-med
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h30-s10000-t10-uni
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h5-s100-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h5-s100-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h5-s10000-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── hsi-h5-s10000-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h15-s100-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h15-s100-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h15-s10000-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h15-s10000-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h30-s100-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h30-s100-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h30-s10000-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h30-s10000-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h30-s10000-t10-med
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h30-s10000-t10-uni
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h5-s100-t1
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h5-s100-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h5-s10000-t1
+│   │   ├── labelmap_0__est-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   ├── rgb-h5-s10000-t10
+│   │   ├── labelmap_0_tree-0__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-1__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-2__test_fold-0_tile-0_lvl-0.png
+│   │   ├── labelmap_0_tree-3__test_fold-0_tile-0_lvl-0.png
+│   │   └── labelmap_0_tree-4__test_fold-0_tile-0_lvl-0.png
+│   └── trainSamples.png
+└── test_api.py
+
+29 directories, 144 files
