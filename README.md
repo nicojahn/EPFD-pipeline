@@ -4,7 +4,6 @@
 * I've build a wrapper around their implementation to tackle the proposed task (ensemble pruning on already trained sematic segmentation decision tree classifiers)
 * This code is not intended to be used as a module (clearly just a pipeline for using EPFD)
 * The segmentation was done with the data from the 2018 IEEE GRSS Data Fusion Challenge: https://hyperspectral.ee.uh.edu/?page_id=1075
-* We actually compare multiple pruning methods together. Check the parent repo with the other implementations: https://github.com/ThomSab/HTCV
 * I use Weights&Biases to track and launch my experiments (therefore it has limitations as described in the FAQ)
 * I publish the pipeline code under BSD 3-Clause License (Note: EPFD itself is published under MIT)
 
@@ -44,6 +43,8 @@
 ## It doesn't run out-of-the-box!
 * Sure, as i performed my experiments with Weights&Biases (wandb.ai)
 * You probably need an account to perform the same actions as i did (the free tier is enough)
+* With the account you also need to change the "entity" in all notebooks and might also adapt the "project"
+* In the "evaluation" notebook you also need to adapt the sweep names to run the evaluation 
 ## Have you any experimental results?
 * I've added a JSON file ('experiment_output.json') to give you the opportunity to have a look into the quality etc.
 * Also the notebook 'evaluation.ipynb' was left uncleared, to give you a perspective on more parameters/behaviours and to keep the latex output for me to copy later on if necessary
